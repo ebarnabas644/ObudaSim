@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450B256627B846C20035E973 /* GameCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B256527B846C20035E973 /* GameCore.swift */; };
+		450B256927B847800035E973 /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B256827B847800035E973 /* StatusViewModel.swift */; };
+		450B8BD927C5959B008E747D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B8BD827C5959B008E747D /* Util.swift */; };
+		4520713A27C540960035C849 /* CardViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520713927C540960035C849 /* CardViewData.swift */; };
+		4520713D27C544530035C849 /* SemesterCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520713C27C544530035C849 /* SemesterCounter.swift */; };
+		4538C2E027C15DC50013463B /* ChangeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4538C2DF27C15DC50013463B /* ChangeMode.swift */; };
+		4540A4B627C148F7002DFBDF /* MenuButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4540A4B527C148F7002DFBDF /* MenuButtonStyle.swift */; };
+		454D08C127C192E300A4608C /* SpecialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454D08C027C192E300A4608C /* SpecialEffect.swift */; };
+		454EDA8A27B9519900E0E630 /* StatusEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EDA8927B9519900E0E630 /* StatusEffect.swift */; };
+		4557DE3127BD27070035A87C /* TitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4557DE3027BD27070035A87C /* TitleBar.swift */; };
+		4557DE3427BD28950035A87C /* BarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4557DE3327BD28950035A87C /* BarShape.swift */; };
+		456DEB5627BEC9BD0046F041 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DEB5527BEC9BD0046F041 /* Cards.swift */; };
+		456DEB5927BECEBF0046F041 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DEB5827BECEBF0046F041 /* MainView.swift */; };
+		456DEB5C27BECFE30046F041 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DEB5B27BECFE30046F041 /* Page.swift */; };
+		456DEB6327BED3BB0046F041 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DEB6227BED3BB0046F041 /* MenuView.swift */; };
+		459E279A27BFEE5E00E2CAD9 /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E279927BFEE5E00E2CAD9 /* EndView.swift */; };
+		459E27A027BFF6B300E2CAD9 /* EndCause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E279F27BFF6B300E2CAD9 /* EndCause.swift */; };
+		45A7372527BD59EB0057E43B /* ReplyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7372427BD59EB0057E43B /* ReplyBox.swift */; };
+		45B207E627B6BABF00E3AFBF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B207E527B6BABF00E3AFBF /* Card.swift */; };
+		45B7BA1127B5484900C6D476 /* ObudaSimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7BA1027B5484900C6D476 /* ObudaSimApp.swift */; };
+		45B7BA1327B5484900C6D476 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7BA1227B5484900C6D476 /* GameView.swift */; };
+		45B7BA1527B5485200C6D476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B7BA1427B5485200C6D476 /* Assets.xcassets */; };
+		45B7BA1827B5485200C6D476 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B7BA1727B5485200C6D476 /* Preview Assets.xcassets */; };
+		45B7BA2427B5552A00C6D476 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7BA2327B5552A00C6D476 /* CardViewModel.swift */; };
+		45B7BA2827B556DE00C6D476 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7BA2727B556DE00C6D476 /* CardView.swift */; };
+		45C381F227BE9D37009E1421 /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = 45C381F127BE9D37009E1421 /* cards.json */; };
+		45CE561D27BD33CC007E75EE /* PictureBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CE561C27BD33CC007E75EE /* PictureBox.swift */; };
+		45CE562027BD44BD007E75EE /* DescriptionBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CE561F27BD44BD007E75EE /* DescriptionBox.swift */; };
+		45D36D1627C024460064C8EC /* TutorialPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D36D1527C024460064C8EC /* TutorialPanel.swift */; };
+		45FE7C3627B7E1B9003CC350 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE7C3527B7E1B9003CC350 /* StatusView.swift */; };
+		45FE7C3927B7E2CD003CC350 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE7C3827B7E2CD003CC350 /* Status.swift */; };
+		45FE7C3C27B7E417003CC350 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE7C3B27B7E417003CC350 /* ProgressBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		450B256527B846C20035E973 /* GameCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCore.swift; sourceTree = "<group>"; };
+		450B256827B847800035E973 /* StatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewModel.swift; sourceTree = "<group>"; };
+		450B8BD827C5959B008E747D /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		4520713927C540960035C849 /* CardViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewData.swift; sourceTree = "<group>"; };
+		4520713C27C544530035C849 /* SemesterCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemesterCounter.swift; sourceTree = "<group>"; };
+		4538C2DF27C15DC50013463B /* ChangeMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMode.swift; sourceTree = "<group>"; };
+		4540A4B527C148F7002DFBDF /* MenuButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonStyle.swift; sourceTree = "<group>"; };
+		454D08C027C192E300A4608C /* SpecialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffect.swift; sourceTree = "<group>"; };
+		454EDA8927B9519900E0E630 /* StatusEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusEffect.swift; sourceTree = "<group>"; };
+		4557DE3027BD27070035A87C /* TitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBar.swift; sourceTree = "<group>"; };
+		4557DE3327BD28950035A87C /* BarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarShape.swift; sourceTree = "<group>"; };
+		456DEB5527BEC9BD0046F041 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		456DEB5827BECEBF0046F041 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		456DEB5B27BECFE30046F041 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		456DEB6227BED3BB0046F041 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		459E279927BFEE5E00E2CAD9 /* EndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
+		459E279F27BFF6B300E2CAD9 /* EndCause.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndCause.swift; sourceTree = "<group>"; };
+		45A7372427BD59EB0057E43B /* ReplyBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyBox.swift; sourceTree = "<group>"; };
+		45B207E527B6BABF00E3AFBF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		45B7BA0D27B5484900C6D476 /* ObudaSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObudaSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B7BA1027B5484900C6D476 /* ObudaSimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObudaSimApp.swift; sourceTree = "<group>"; };
+		45B7BA1227B5484900C6D476 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		45B7BA1427B5485200C6D476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45B7BA1727B5485200C6D476 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45B7BA1927B5485200C6D476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B7BA2327B5552A00C6D476 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		45B7BA2727B556DE00C6D476 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		45C381F127BE9D37009E1421 /* cards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
+		45CE561C27BD33CC007E75EE /* PictureBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureBox.swift; sourceTree = "<group>"; };
+		45CE561F27BD44BD007E75EE /* DescriptionBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionBox.swift; sourceTree = "<group>"; };
+		45D36D1527C024460064C8EC /* TutorialPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPanel.swift; sourceTree = "<group>"; };
+		45FE7C3527B7E1B9003CC350 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		45FE7C3827B7E2CD003CC350 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		45FE7C3B27B7E417003CC350 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45B7BA0A27B5484900C6D476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		450B8BD727C59589008E747D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				450B8BD827C5959B008E747D /* Util.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4520713827C5407D0035C849 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4520713927C540960035C849 /* CardViewData.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		454D08BF27C192B000A4608C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				456DEB5B27BECFE30046F041 /* Page.swift */,
+				459E279F27BFF6B300E2CAD9 /* EndCause.swift */,
+				4538C2DF27C15DC50013463B /* ChangeMode.swift */,
+				454D08C027C192E300A4608C /* SpecialEffect.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		455626DF27BEC61C00DC8DCA /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4557DE3327BD28950035A87C /* BarShape.swift */,
+				45A7372427BD59EB0057E43B /* ReplyBox.swift */,
+				45B7BA2727B556DE00C6D476 /* CardView.swift */,
+				45CE561C27BD33CC007E75EE /* PictureBox.swift */,
+				45FE7C3527B7E1B9003CC350 /* StatusView.swift */,
+				45CE561F27BD44BD007E75EE /* DescriptionBox.swift */,
+				4557DE3027BD27070035A87C /* TitleBar.swift */,
+				45FE7C3B27B7E417003CC350 /* ProgressBar.swift */,
+				45D36D1527C024460064C8EC /* TutorialPanel.swift */,
+				4540A4B527C148F7002DFBDF /* MenuButtonStyle.swift */,
+				4520713C27C544530035C849 /* SemesterCounter.swift */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		455626E027BEC66C00DC8DCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				454D08BF27C192B000A4608C /* Enums */,
+				45FE7C3827B7E2CD003CC350 /* Status.swift */,
+				454EDA8927B9519900E0E630 /* StatusEffect.swift */,
+				45B207E527B6BABF00E3AFBF /* Card.swift */,
+				456DEB5527BEC9BD0046F041 /* Cards.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		456DEB6127BED37C0046F041 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				456DEB5827BECEBF0046F041 /* MainView.swift */,
+				45B7BA1227B5484900C6D476 /* GameView.swift */,
+				456DEB6227BED3BB0046F041 /* MenuView.swift */,
+				459E279927BFEE5E00E2CAD9 /* EndView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		459E279C27BFF09700E2CAD9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				45B7BA2327B5552A00C6D476 /* CardViewModel.swift */,
+				450B256827B847800035E973 /* StatusViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		45B7BA0427B5484900C6D476 = {
+			isa = PBXGroup;
+			children = (
+				45B7BA0F27B5484900C6D476 /* ObudaSim */,
+				45B7BA0E27B5484900C6D476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45B7BA0E27B5484900C6D476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45B7BA0D27B5484900C6D476 /* ObudaSim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45B7BA0F27B5484900C6D476 /* ObudaSim */ = {
+			isa = PBXGroup;
+			children = (
+				450B8BD727C59589008E747D /* Utility */,
+				4520713827C5407D0035C849 /* Constants */,
+				459E279C27BFF09700E2CAD9 /* ViewModels */,
+				456DEB6127BED37C0046F041 /* Views */,
+				455626E027BEC66C00DC8DCA /* Models */,
+				455626DF27BEC61C00DC8DCA /* ViewComponents */,
+				45B7BA1027B5484900C6D476 /* ObudaSimApp.swift */,
+				45B7BA1427B5485200C6D476 /* Assets.xcassets */,
+				45B7BA1927B5485200C6D476 /* Info.plist */,
+				45B7BA1627B5485200C6D476 /* Preview Content */,
+				450B256527B846C20035E973 /* GameCore.swift */,
+				45C381F127BE9D37009E1421 /* cards.json */,
+			);
+			path = ObudaSim;
+			sourceTree = "<group>";
+		};
+		45B7BA1627B5485200C6D476 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45B7BA1727B5485200C6D476 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45B7BA0C27B5484900C6D476 /* ObudaSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B7BA1C27B5485200C6D476 /* Build configuration list for PBXNativeTarget "ObudaSim" */;
+			buildPhases = (
+				45B7BA0927B5484900C6D476 /* Sources */,
+				45B7BA0A27B5484900C6D476 /* Frameworks */,
+				45B7BA0B27B5484900C6D476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObudaSim;
+			productName = ObudaSim;
+			productReference = 45B7BA0D27B5484900C6D476 /* ObudaSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45B7BA0527B5484900C6D476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					45B7BA0C27B5484900C6D476 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 45B7BA0827B5484900C6D476 /* Build configuration list for PBXProject "ObudaSim" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45B7BA0427B5484900C6D476;
+			productRefGroup = 45B7BA0E27B5484900C6D476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45B7BA0C27B5484900C6D476 /* ObudaSim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45B7BA0B27B5484900C6D476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B7BA1827B5485200C6D476 /* Preview Assets.xcassets in Resources */,
+				45C381F227BE9D37009E1421 /* cards.json in Resources */,
+				45B7BA1527B5485200C6D476 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45B7BA0927B5484900C6D476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454D08C127C192E300A4608C /* SpecialEffect.swift in Sources */,
+				459E279A27BFEE5E00E2CAD9 /* EndView.swift in Sources */,
+				45CE561D27BD33CC007E75EE /* PictureBox.swift in Sources */,
+				456DEB5927BECEBF0046F041 /* MainView.swift in Sources */,
+				45B7BA1327B5484900C6D476 /* GameView.swift in Sources */,
+				45B7BA1127B5484900C6D476 /* ObudaSimApp.swift in Sources */,
+				450B8BD927C5959B008E747D /* Util.swift in Sources */,
+				454EDA8A27B9519900E0E630 /* StatusEffect.swift in Sources */,
+				45FE7C3927B7E2CD003CC350 /* Status.swift in Sources */,
+				4520713D27C544530035C849 /* SemesterCounter.swift in Sources */,
+				4520713A27C540960035C849 /* CardViewData.swift in Sources */,
+				4557DE3127BD27070035A87C /* TitleBar.swift in Sources */,
+				456DEB6327BED3BB0046F041 /* MenuView.swift in Sources */,
+				45D36D1627C024460064C8EC /* TutorialPanel.swift in Sources */,
+				45CE562027BD44BD007E75EE /* DescriptionBox.swift in Sources */,
+				45FE7C3627B7E1B9003CC350 /* StatusView.swift in Sources */,
+				459E27A027BFF6B300E2CAD9 /* EndCause.swift in Sources */,
+				45B207E627B6BABF00E3AFBF /* Card.swift in Sources */,
+				456DEB5627BEC9BD0046F041 /* Cards.swift in Sources */,
+				4557DE3427BD28950035A87C /* BarShape.swift in Sources */,
+				4538C2E027C15DC50013463B /* ChangeMode.swift in Sources */,
+				456DEB5C27BECFE30046F041 /* Page.swift in Sources */,
+				45FE7C3C27B7E417003CC350 /* ProgressBar.swift in Sources */,
+				450B256927B847800035E973 /* StatusViewModel.swift in Sources */,
+				45B7BA2827B556DE00C6D476 /* CardView.swift in Sources */,
+				4540A4B627C148F7002DFBDF /* MenuButtonStyle.swift in Sources */,
+				45B7BA2427B5552A00C6D476 /* CardViewModel.swift in Sources */,
+				45A7372527BD59EB0057E43B /* ReplyBox.swift in Sources */,
+				450B256627B846C20035E973 /* GameCore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45B7BA1A27B5485200C6D476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45B7BA1B27B5485200C6D476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45B7BA1D27B5485200C6D476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ObudaSim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ObudaSim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ObudaSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45B7BA1E27B5485200C6D476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ObudaSim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ObudaSim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ObudaSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45B7BA0827B5484900C6D476 /* Build configuration list for PBXProject "ObudaSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B7BA1A27B5485200C6D476 /* Debug */,
+				45B7BA1B27B5485200C6D476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45B7BA1C27B5485200C6D476 /* Build configuration list for PBXNativeTarget "ObudaSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B7BA1D27B5485200C6D476 /* Debug */,
+				45B7BA1E27B5485200C6D476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45B7BA0527B5484900C6D476 /* Project object */;
+}

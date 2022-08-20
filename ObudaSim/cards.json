@@ -1,0 +1,298 @@
+{
+   "cards":[
+      {
+         "special":"ExtraSemester",
+         "repeatable":false,
+         "eventName":"Analízis vizsga",
+         "rightReply":"Tanulok rá",
+         "leftReply":"Még ráér",
+         "description":"Pár hét és elérkezik a vizsga ideje.",
+         "statusImpactRight":{
+            "money":0,
+            "energy":-10,
+            "alcohol":0,
+            "study":10
+         },
+         "statusImpactLeft":{
+            "money":0,
+            "energy":10,
+            "alcohol":0,
+            "study":-10
+         },
+         "pictureName":"book1"
+      },
+      {
+         "special":"None",
+         "repeatable":true,
+         "eventName":"Automata",
+         "rightReply":"Veszek valamit",
+         "leftReply":"Inkább spórolok",
+         "description":"Találtál egy automatát.",
+         "statusImpactRight":{
+            "money":-10,
+            "energy":10,
+            "alcohol":0,
+            "study":0
+         },
+         "statusImpactLeft":{
+            "money":10,
+            "energy":-10,
+            "alcohol":0,
+            "study":0
+         },
+         "pictureName":"automata1"
+      },
+      {
+         "special":"ExtraSemester",
+         "repeatable":false,
+         "eventName":"Szakszigorlat",
+         "rightReply":"Tanulok rá",
+         "leftReply":"Már tanultam eleget",
+         "description":"Következő héten szakszigorlat.",
+         "statusImpactRight":{
+            "money":0,
+            "energy":-20,
+            "alcohol":0,
+            "study":10
+         },
+         "statusImpactLeft":{
+            "money":0,
+            "energy":10,
+            "alcohol":0,
+            "study":0
+         },
+         "pictureName":"book1"
+      },
+      {
+        "special":"None",
+        "repeatable":false,
+        "eventName":"Félévnyitó buli",
+        "rightReply":"Buli",
+        "leftReply":"Alvás",
+        "description":"Mai nap este lesz a félévnyitó buli.",
+        "statusImpactRight":{
+           "money":-10,
+           "energy":-10,
+           "alcohol":10,
+           "study":0
+        },
+        "statusImpactLeft":{
+           "money":0,
+           "energy":10,
+           "alcohol":-10,
+           "study":0
+        },
+        "pictureName":"outdoor1"
+     },
+     {
+        "special":"None",
+        "repeatable":true,
+        "eventName":"Tárgyfelvétel",
+        "rightReply":"Több tantárgy",
+        "leftReply":"Több munka",
+        "description":"Eljött a tárgyfelvétel ideje, de figyelni kell a munkára is.",
+        "statusImpactRight":{
+           "money":0,
+           "energy":-10,
+           "alcohol":0,
+           "study":20
+        },
+        "statusImpactLeft":{
+           "money":20,
+           "energy":-20,
+           "alcohol":0,
+           "study":-10
+        },
+        "pictureName":"aula2"
+     },
+     {
+        "special":"None",
+        "repeatable":false,
+        "eventName":"Prog IV beadandó",
+        "rightReply":"Még egy pár extra feature",
+        "leftReply":"Jól van az úgy",
+        "description":"Hamarosan a féléves határideje elérkezik.",
+        "statusImpactRight":{
+           "money":0,
+           "energy":-10,
+           "alcohol":0,
+           "study":15
+        },
+        "statusImpactLeft":{
+           "money":0,
+           "energy":10,
+           "alcohol":0,
+           "study":-10
+        },
+        "pictureName":"book1"
+     },
+     {
+        "special":"None",
+        "repeatable":true,
+        "eventName":"Alkalmi munka",
+        "rightReply":"Dolgozok",
+        "leftReply":"Tanulok",
+        "description":"Találtál egy jól fizető alkalmi munkát.",
+        "statusImpactRight":{
+           "money":20,
+           "energy":-10,
+           "alcohol":0,
+           "study":-10
+        },
+        "statusImpactLeft":{
+           "money":0,
+           "energy":0,
+           "alcohol":0,
+           "study":10
+        },
+        "pictureName":"outdoor1"
+     },
+     {
+        "special":"None",
+        "repeatable":true,
+        "eventName":"Kmooc",
+        "rightReply":"Egy pár tárgy belefér",
+        "leftReply":"Inkább későbbre hagyom",
+        "description":"A kmooc mindig jó.",
+        "statusImpactRight":{
+           "money":10,
+           "energy":-10,
+           "alcohol":0,
+           "study":5
+        },
+        "statusImpactLeft":{
+           "money":-10,
+           "energy":10,
+           "alcohol":0,
+           "study":-0
+        },
+        "pictureName":"aula3"
+     },
+     {
+      "special":"None",
+      "repeatable":true,
+      "eventName":"Buli a városban",
+      "rightReply":"Nem árt egy kis buli",
+      "leftReply":"Munkakaidő van",
+      "description":"Kora délutáni buli.",
+      "statusImpactRight":{
+         "money":-20,
+         "energy":10,
+         "alcohol":20,
+         "study":-10
+      },
+      "statusImpactLeft":{
+         "money":10,
+         "energy":-20,
+         "alcohol":-10,
+         "study":-10
+      },
+      "pictureName":"outdoor1"
+   },
+{
+      "special":"None",
+      "repeatable":true,
+      "eventName":"Projektmunka haladás",
+      "rightReply":"Haladok vele",
+      "leftReply":"Majd holnap",
+      "description":"Le kéne adni a projektmunka következő részés.",
+      "statusImpactRight":{
+         "money":0,
+         "energy":-20,
+         "alcohol":-10,
+         "study":10
+      },
+      "statusImpactLeft":{
+         "money":-10,
+         "energy":10,
+         "alcohol":10,
+         "study":-10
+      },
+      "pictureName":"book1"
+   },
+{
+      "special":"None",
+      "repeatable":true,
+      "eventName":"Testnevelés",
+      "rightReply":"Résztveszek rajta",
+      "leftReply":"Most kihagyom",
+      "description":"Kötelező tesi óra.",
+      "statusImpactRight":{
+         "money":0,
+         "energy":-10,
+         "alcohol":-10,
+         "study":0
+      },
+      "statusImpactLeft":{
+         "money":0,
+         "energy":20,
+         "alcohol":-10,
+         "study":0
+      },
+      "pictureName":"aula4"
+   },
+{
+      "special":"None",
+      "repeatable":false,
+      "eventName":"Korsóavató",
+      "rightReply":"Jó buli lesz",
+      "leftReply":"Inkább tanulok",
+      "description":"A gólyák korsóavatója.",
+      "statusImpactRight":{
+         "money":-10,
+         "energy":20,
+         "alcohol":20,
+         "study":-10
+      },
+      "statusImpactLeft":{
+         "money":0,
+         "energy":-20,
+         "alcohol":-10,
+         "study":20
+      },
+      "pictureName":"aula3"
+   },
+   {
+      "special":"ExtraSemester",
+         "repeatable":false,
+         "eventName":"Prog IV vizsga",
+         "rightReply":"Tanulok rá",
+         "leftReply":"Már tanultam eleget",
+         "description":"Hamarosan prog IV vizsga.",
+         "statusImpactRight":{
+            "money":0,
+            "energy":-20,
+            "alcohol":0,
+            "study":10
+         },
+         "statusImpactLeft":{
+            "money":0,
+            "energy":20,
+            "alcohol":0,
+            "study":0
+         },
+         "pictureName":"audmax2"
+   },
+   {
+      "special":"None",
+         "repeatable":true,
+         "eventName":"Találkozás haverokkal",
+         "rightReply":"Elmegyek",
+         "leftReply":"Most nem érek rá",
+         "description":"Haverok meghívtak találkozóra.",
+         "statusImpactRight":{
+            "money":-10,
+            "energy":10,
+            "alcohol":10,
+            "study":-10
+         },
+         "statusImpactLeft":{
+            "money":0,
+            "energy":-10,
+            "alcohol":-10,
+            "study":10
+         },
+         "pictureName":"party1"
+   }
+   ]
+}
